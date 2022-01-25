@@ -1,8 +1,8 @@
 # Point-Set Registrations for Ultrasound Probe Calibrations 
-### -Undergraduate Thesis-
+#### -Undergraduate Thesis-
 
-## Updated January 25, 2022
-## Currently, algorithms for point-based, line-based and dynamic registrations are being developped to be ported into 3D Slicer as modules
+#### Updated January 25, 2022
+#### Currently, algorithms for point-based, line-based and dynamic registrations are being developped to be ported into 3D Slicer as modules
 
 ### Author: Matteo Tanzi
 ### Year: 2022
