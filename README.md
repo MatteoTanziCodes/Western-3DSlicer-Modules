@@ -25,5 +25,12 @@ Updated January 25, 2022
 
 
 
-
 ## All sources for research and development are listed below:
+- [Orthogonal Procrustes Analysis (OPA)](https://github.com/chene/ARQOPUS/blob/main/point_Procrustes.ipynb)
+- [Line-based Orthogonal Procrustes Analysis](https://github.com/chene/ARQOPUS/blob/main/line_Procrustes.ipynb)
+- [Optimal solution in the presence of heteroscedastic Fiducial Localization Error](https://github.com/chene/ARQOPUS/blob/main/HEIV.ipynb)
+- [ICP Registration](http://www.open3d.org/docs/0.7.0/tutorial/Basic/icp_registration.html)
+- [ICP & Point Cloud Registration - Part 1: Known Data Association & SVD (Cyrill Stachniss, 2021)](https://youtu.be/dhzLQfDBx2Q)
+- [ICP & Point Cloud Registration - Part 2: Unknown Data Association (Cyrill Stachniss, 2021)](https://youtu.be/ktRqKxddjJk)
+- [Point-Set Registration](https://en.wikipedia.org/wiki/Point-set_registration)
+- [Orthogonal Procrustes Analysis with isotropic scaling](https://chene.github.io/software/2020_OPA_isotropic)
