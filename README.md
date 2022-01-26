@@ -31,3 +31,5 @@ Updated January 25, 2022
 - [ICP & Point Cloud Registration - Part 2: Unknown Data Association (Cyrill Stachniss, 2021)](https://youtu.be/ktRqKxddjJk)
 - [Point-Set Registration](https://en.wikipedia.org/wiki/Point-set_registration)
 - [Orthogonal Procrustes Analysis with isotropic scaling](https://chene.github.io/software/2020_OPA_isotropic)
+- [Point Registration](https://www.vanderbilt.edu/vise/wp-content/uploads/sites/193/Workshop-2-Intro-to-Fiducial-Registration-8-1112-15.pdf)
+- [Image Registration Techniques](https://www.focalhealthcare.com/rigid-and-non-rigid-image-registration-in-fusion-biopsies/)
