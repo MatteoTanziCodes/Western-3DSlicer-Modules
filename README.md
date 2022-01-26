@@ -33,3 +33,4 @@ Updated January 25, 2022
 - [Orthogonal Procrustes Analysis with isotropic scaling](https://chene.github.io/software/2020_OPA_isotropic)
 - [Point Registration](https://www.vanderbilt.edu/vise/wp-content/uploads/sites/193/Workshop-2-Intro-to-Fiducial-Registration-8-1112-15.pdf)
 - [Image Registration Techniques](https://www.focalhealthcare.com/rigid-and-non-rigid-image-registration-in-fusion-biopsies/)
+- [Orthogonal Procrustes problem](https://en.wikipedia.org/wiki/Orthogonal_Procrustes_problem)
