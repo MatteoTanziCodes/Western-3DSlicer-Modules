@@ -16,11 +16,7 @@ Updated January 25, 2022
 #### [Understanding Fiducial Registration](https://github.com/MatteoTanziCodes/Western-3DSlicer-Modules/blob/main/Documentation/Fiducial%20Registration.ipynb)
 
 ## Program Descriptions:
-#### [Biforcation Points Reigstration Technique](https://github.com/MatteoTanziCodes/Western-3DSlicer-Modules/blob/main/Documentation/biforcation-mapping-sys.ipynb)
-
-#### [Centerline Registration Technique](https://github.com/MatteoTanziCodes/Western-3DSlicer-Modules/blob/main/Documentation/centerline-mapping-sys.ipynb)
-
-#### [Elastic Registration Technique](https://github.com/MatteoTanziCodes/Western-3DSlicer-Modules/blob/main/Documentation/dynamic-mapping-sys.ipynb)
+#### [Fiducial Registration Technique applications](https://github.com/MatteoTanziCodes/Western-3DSlicer-Modules/blob/main/Documentation/biforcation-mapping-sys.ipynb)
 
 ## All sources for research and development are listed below:
 - [Orthogonal Procrustes Analysis (OPA)](https://github.com/chene/ARQOPUS/blob/main/point_Procrustes.ipynb)
