@@ -1,4 +1,5 @@
 from sre_constants import BRANCH
+from tkinter import HORIZONTAL
 from vpython import *
 from time import *
 import random
@@ -12,6 +13,7 @@ branch_heads_array = []
 MAIN_LINE_LENGTH = 80
 BRANCH_AMOUNT_DIVISOR = 4
 BRANCH_AMOUNT_UPPER = MAIN_LINE_LENGTH/BRANCH_AMOUNT_DIVISOR
+AMOUNT_OF_BRANCHES = 0
 
 
 def next_vector(vector_array, direction, index):
@@ -48,11 +50,11 @@ def connect_main_line(vector_array_main):
     main_line.append(vector_array_main)
 
 def pick_branch_nodes(vector_array_main, branch_heads_array):
-    Amount_of_branches = random.randint(3,BRANCH_AMOUNT_UPPER)
+    AMOUNT_OF_BRANCHES = random.randint(BRANCH_AMOUNT_UPPER - 8,BRANCH_AMOUNT_UPPER)
     index_on_main_line = random.randint(2,BRANCH_AMOUNT_DIVISOR)
-    for branch in range(Amount_of_branches):
+    for branch in range(AMOUNT_OF_BRANCHES):
         branch_heads_array.append(vector_array_main[index_on_main_line])
-        index_on_main_line = index_on_main_line + random.randint(1,4)
+        index_on_main_line = index_on_main_line + random.randint(2,BRANCH_AMOUNT_DIVISOR)
     return branch_heads_array
 
 def create_branches(branch_heads_array):
@@ -70,7 +72,7 @@ def create_branches(branch_heads_array):
             vector_direction = "-y"
         else:
             vector_direction = "-z"
-        BRANCH_LENGTH = random.randint(15,25)
+        BRANCH_LENGTH = random.randint(8,25)
         for y in range(BRANCH_LENGTH):
             branch_array[x].append(next_vector(branch_array[x], vector_direction, y))
     return branch_array
@@ -88,21 +90,43 @@ def create_target():
     target = (random_x, random_y, random_z)
     return target
 
-def bifurcation_points_array(branch_heads_array):
+def bifurcation_points(branch_heads_array):
     return branch_heads_array
 
 def centerline_points(vector_array_main):
     centerline_points_array = []
+    index_on_main_line = random.randint(2,BRANCH_AMOUNT_DIVISOR)
+    for branch in range(AMOUNT_OF_BRANCHES):
+        centerline_points_array.append(vector_array_main[index_on_main_line])
+        index_on_main_line = index_on_main_line + random.randint(2,BRANCH_AMOUNT_DIVISOR)
     return centerline_points_array
+
+def point_transformation(vector):
+    new_vector = []
+    horizontal_translation = 5
+    horizontal_stretch = 1/4
+    z_stretch = 1.5
+
+    new_vector.append((vector[0] + horizontal_translation) * horizontal_stretch)
+    new_vector.append(vector[1])
+    new_vector.append(vector[2] * z_stretch)
+    return new_vector
+
+def deform_vessel():
+    
+
 
 create_main_line(vector_array_main)
 connect_main_line(vector_array_main)
-pick_branch_nodes(vector_array_main, branch_heads_array)
+pick_branch_nodes(vector_array_main, branch_heads_array, AMOUNT_OF_BRANCHES)
 branch_array = create_branches(branch_heads_array)
 connect_branches(branch_array)
-Target_registration = create_target()
-bifurcation_points_array = bifurcation_points_array(branch_heads_array)
-centerline_points_array = centerline_points(vector_array_main)
+CT_Target_registration = create_target()
+bifurcation_points_array = bifurcation_points(branch_heads_array)
+centerline_points_array = centerline_points(vector_array_main, AMOUNT_OF_BRANCHES)
+US_Target_Registration = point_transformation(CT_Target_registration)
+
+
 
 while True:
     pass

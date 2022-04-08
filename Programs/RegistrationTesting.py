@@ -35,34 +35,7 @@ from time import *
 
 
 
-
-
-
 ######## Window 2 - Bifurcation ########
-
-## Create window
-
-## Copy BV1 w/ fiducials and target
-
-## Copy BV2 w/ fiducials and target
-
-## apply registration algorithm - VTK Transform
-
-## Measure FLE
-
-## Measure FRE
-
-## Measure TRE
-
-## Send data to CSV File
-
-
-
-
-
-
-
-######## Window 3 - Bifurcation ########
 
 ## Create window
 
@@ -82,8 +55,7 @@ from time import *
 
 
 
-
-######## Window 4 - Centerline ########
+######## Window 3 - Centerline ########
 
 ## Create window
 
@@ -106,31 +78,7 @@ from time import *
 
 
 
-######## Window 5- Centerline ########
-
-## Create window
-
-## Copy BV3 w/ fiducials and targets
-
-## Copy BV4 w/ fiducials and targets
-
-## apply registration algorithm - VTK Transform
-
-## Measure FLE
-
-## Measure FRE
-
-## Measure TRE
-
-## Send data to CSV File
-
-
-
-
-
-
-
-######## Window 6 - Centerline ########
+######## Window 4 - Centerline ########
 
 ## Create window
 
