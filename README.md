@@ -1,4 +1,4 @@
-# Point-Set Registrations for Ultrasound Probe Calibrations 
+# Fiducial Registrations
 -Undergraduate Thesis-
 Updated January 25, 2022
 
