@@ -6,92 +6,74 @@
 from vpython import *
 from time import *
 
-##### GRAPHICS #####
-## Develop 3D windows
+######## PROGRAM ########
 
-######## Window 1 - Bifurcation ########
+###### INITIALIZATION #######
 
-## Create window
+## Create Excel File
 
-## Create Blood Vessel Centerlines - emulate orig ct scan
+# Page 1 - ICP-Bifurcation
 
-## Create Target for first blood vessels space
+# Page 2 - ICP-Centerline
 
-## Create altered Blood Vessel Centerlines - emulate ultrasound scan
+# Page 3 - CPD-Bifurcation
 
-## Apply same transformation to second blood vessel space target
+# Page 4 - CPD-Centerline
 
-## Add Fiducials at bifurcation points for both vessels
+#############################
 
-### Apply registration algorithm - ICP
+##### OVER DEFINED ITERATIONS ####
 
-## Measure FLE
+## Create Vessels
 
-## Measure FRE
+## Get Fiducials for Bifurcation
 
-## Measure TRE
+## Get Fiducials for Centerline
 
-## Send data to CSV File
+## Get Targets
 
+## Apply ICP to orig fiducial sets (Bifurcation) & Target
 
+## Apply ICP to orig fiducial sets (Centerline) & Target
 
-######## Window 2 - Bifurcation ########
+## Apply CPD to orig fiducial sets (Bifurcation) & Target
 
-## Create window
+## Apply CPD to orig fiducial sets (Centerline) & Target
 
-## Copy BV1 w/ fiducials and target
+## Measure FRE of ICP-Bifurcation
 
-## Copy BV2 w/ fiducials and target
+## Measure TRE of ICP-Bifurcation
 
-### apply registration algorithm - Coherent Point Drift
+## Append Data to Page 1
 
-## Measure FLE
+## Measure FRE of ICP-Centerline
 
-## Measure FRE
+## Measure TRE of ICP-Centerline
 
-## Measure TRE
+## Append Data to Page 2
 
-## Send data to CSV File
+## Measure FRE of CPD-Bifurcation
 
+## Measure TRE of CPD-Bifurcation
 
+## Append Data to Page 3
 
-######## Window 3 - Centerline ########
+## Measure FRE of CPD-Centerline
 
-## Create window
+## Measure TRE of CPD-Centerline
 
-## Copy BV1 w/ target
+## Append Data to Page 4
 
-## Copy BV2 w/ target
+##################################
 
-## add new fiducials to centerline of vessels
+##### DATA MEASUREMENT ######
 
-###  apply registration algorithm - ICP
+## Calc mean FRE & TRE for ICP-Bifurcation
 
-## Measure FLE
+## Calc mean FRE & TRE for ICP-Centerline
 
-## Measure FRE
+## Calc mean FRE & TRE for CPD-Bifurcation
 
-## Measure TRE
+## Calc mean FRE & TRE for CPD-Centerline
 
-## Send data to CSV File
-
-
-
-
-######## Window 4 - Centerline ########
-
-## Create window
-
-## Copy BV3 w/ fiducials and targets
-
-## Copy BV4 w/ fiducials and targets
-
-### apply registration algorithm - Coherent Point Drift
-
-## Measure FLE
-
-## Measure FRE
-
-## Measure TRE
-
-## Send data to CSV File
+## delete file
