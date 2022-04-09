@@ -1,4 +1,4 @@
-# Point-Set Registrations for Ultrasound Probe Calibrations 
+# Fiducial Registrations
 -Undergraduate Thesis-
 Updated January 25, 2022
 
@@ -16,7 +16,7 @@ Updated January 25, 2022
 #### [Understanding Fiducial Registration](https://github.com/MatteoTanziCodes/Western-3DSlicer-Modules/blob/main/Documentation/Fiducial%20Registration.ipynb)
 
 ## Program Descriptions:
-#### [Fiducial Registration Technique applications](https://github.com/MatteoTanziCodes/Western-3DSlicer-Modules/blob/main/Documentation/Fiducial%20Registration%20Technique%20applications.ipynb)
+#### [Fiducial Registration Technique applications]
 
 ## All sources for research and development are listed below:
 - [Orthogonal Procrustes Analysis (OPA)](https://github.com/chene/ARQOPUS/blob/main/point_Procrustes.ipynb)
@@ -30,3 +30,10 @@ Updated January 25, 2022
 - [Point Registration](https://www.vanderbilt.edu/vise/wp-content/uploads/sites/193/Workshop-2-Intro-to-Fiducial-Registration-8-1112-15.pdf)
 - [Image Registration Techniques](https://www.focalhealthcare.com/rigid-and-non-rigid-image-registration-in-fusion-biopsies/)
 - [Orthogonal Procrustes problem](https://en.wikipedia.org/wiki/Orthogonal_Procrustes_problem)
+- [Point Set Registration: Coherent Point Drift](https://arxiv.org/pdf/0905.2635.pdf)
+- [PyCPD: Tutorial on the Coherent Point Drift Algorithm](https://siavashk.github.io/2017/05/14/coherent-point-drift/)
+- [Rigid Registration: The Iterative Closest Point Algorithm](http://www.yanivresearch.info/writtenMaterial/icp.pdf)
+- [The Distribution of Target Registration Error in Rigid-Body Point-Based Registration](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.581.113&rep=rep1&type=pdf)
+- [Registration Errors, Terminology and Interpretation](http://insightsoftwareconsortium.github.io/SimpleITK-Notebooks/Python_html/68_Registration_Errors.html)
+- [Registration and error estimation in correlated multimodal imaging](https://hal.archives-ouvertes.fr/hal-02744368/document)
+- [Target Registration Error](https://slideplayer.com/slide/16750806/)
