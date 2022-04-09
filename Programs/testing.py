@@ -1,6 +1,8 @@
 from vpython import *
+from openpyxl import *
 import random
 import numpy as np
+import os
 
 ##### Testing file #####
 
@@ -149,17 +151,49 @@ def mearure_TRE(CT_Target, US_Target):
 # def ICP_transformation(CT_fiducials, US_fiducials):
 # def CPD_transformation(CT_fiducials, US_fiducials):
 
-def create_file(Page_names, file_name):
-
+def create_file(page_names, file_name):
+    wb = Workbook()
+    ws1 = wb.active
+    ws1.title = page_names[0]
+    ws2 = wb.create_sheet(page_names[1])
+    ws3 = wb.create_sheet(page_names[2])
+    ws4 = wb.create_sheet(page_names[3])
+    wb.save(filename = file_name)
 
 def delete_file(file_name):
+    if os.path.exists(file_name + ".xlsx"):
+        os.remove(file_name + ".xlsx")
+    else:
+        print("The file does not exist")
 
-    
-def append_data(page_name,file_name):
-
+def append_data(page_name,file_name, FREs, TRE):
+    wb = load_workbook(file_name + ".xlsx")
+    wb.active = wb[page_name]
+    ws = wb.active
+    # append first empty row with FREs and TRE
 
 def data_measurement(page_name,file_name):
     measurements = []
+    FREs = []
+    TREs = []
+    fre_sum = 0
+    tre_sum = 0
+    wb = load_workbook(file_name + ".xlsx")
+    wb.active = wb[page_name]
+    ws = wb.active
+
+    # Read all FREs and TREs
+    
+
+    # calculate means
+    for x in range(len(FREs)):
+        fre_sum = fre_sum + FREs[x]
+    
+    for x in range(len(TREs)):
+        tre_sum = tre_sum + TREs[x]
+    
+    measurements.append()
+    measurements.append()
 
     return measurements
 
