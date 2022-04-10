@@ -114,5 +114,11 @@ def data_read(itr):
     print("mean FRE for "+str(itr)+" vessel iteration CPD-Centerline: " + str(round(fre4,5)))
     print("mean TRE for "+str(itr)+" vessel iteration CPD-Centerline: " + str(round(tre4,5)) + "\n")
 
+#############################
+###### RUN PROGRAM ##########
 
-program(1000)
+iterations = 50
+
+program(iterations)
+
+#############################
