@@ -3,8 +3,6 @@
 # Undergrad Thesis Project
 # April 10 - 2022
 ############################
-from vpython import *
-from time import *
 import VesselConstruction as vcon
 import VesselDisplay as vd
 import Transformations as trans
