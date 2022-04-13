@@ -13,7 +13,7 @@ Updated April 10th,2022
 #### The Jupyter Notebooks - Found within Documentation - will outline the research and development techniques used for the point-set registration programs, using code blocks and text to improve clarity for reports for further research.
 
 ## Project Description:
-#### [Understanding Fiducial Registration](https://github.com/MatteoTanziCodes/Western-3DSlicer-Modules/blob/main/Documentation/Fiducial%20Registration.ipynb)
+#### [Understanding Fiducial Registration]()
 
 ## Program Descriptions:
 #### [Fiducial Registration Technique applications]()
