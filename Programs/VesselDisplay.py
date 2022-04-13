@@ -13,4 +13,4 @@ def display_branches(branch_array, color_choice):
 def display_point(point, color_choice, rad):
     points(point, radius = rad, color =  color_choice)
 
-# def transform(vessel_start, vessel_finish, fiducials_start, fiducials_finish, target_start, target_finish):
+# def transform(main_vessel, deform_vessel_start, deform_vessel_finish, fiducials_start, fiducials_finish, target_start, target_finish):

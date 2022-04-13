@@ -4,7 +4,7 @@
 # April 10 - 2022
 ############################
 import VesselConstruction as vcon
-import VesselDisplay as vd
+import VesselDisplay as vdisp
 import Transformations as trans
 import Data as data
 ######## PROGRAM ########
@@ -115,8 +115,11 @@ def data_read(itr):
 #############################
 ###### RUN PROGRAM ##########
 
-iterations = 50
+def main():
+    itr = input("Enter the total iterations: ")
+    program(itr)
 
-program(iterations)
+if __name__ == "__main__":
+    main()
 
 #############################
