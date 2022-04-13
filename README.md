@@ -1,6 +1,6 @@
 # Fiducial Registrations
 -Undergraduate Thesis-
-Updated January 25, 2022
+Updated April 10th,2022
 
 ### Author: Matteo Tanzi
 ### Year: 2022
@@ -16,7 +16,7 @@ Updated January 25, 2022
 #### [Understanding Fiducial Registration](https://github.com/MatteoTanziCodes/Western-3DSlicer-Modules/blob/main/Documentation/Fiducial%20Registration.ipynb)
 
 ## Program Descriptions:
-#### [Fiducial Registration Technique applications]
+#### [Fiducial Registration Technique applications]()
 
 ## All sources for research and development are listed below:
 - [Orthogonal Procrustes Analysis (OPA)](https://github.com/chene/ARQOPUS/blob/main/point_Procrustes.ipynb)
