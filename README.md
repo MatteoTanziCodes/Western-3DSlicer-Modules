@@ -1,6 +1,6 @@
 # Fiducial Registrations
 -Undergraduate Thesis-
-Updated January 25, 2022
+Updated April 10th,2022
 
 ### Author: Matteo Tanzi
 ### Year: 2022
@@ -8,15 +8,15 @@ Updated January 25, 2022
 #### Currently, algorithms for point-based, line-based and dynamic registrations are being developped to be ported into 3D Slicer as modules
 
 ## Github Repository Structure
-*This github repository contains Jupyter Notebooks and Python Programs*
+*This github repository contains Jupyter Notebooks and Python Programs used for my undergrad thesis project*
 #### The Python Programs are found within the programs folder - descriptions can be found below
 #### The Jupyter Notebooks - Found within Documentation - will outline the research and development techniques used for the point-set registration programs, using code blocks and text to improve clarity for reports for further research.
 
 ## Project Description:
-#### [Understanding Fiducial Registration](https://github.com/MatteoTanziCodes/Western-3DSlicer-Modules/blob/main/Documentation/Fiducial%20Registration.ipynb)
+#### [Understanding Fiducial Registration]()
 
 ## Program Descriptions:
-#### [Fiducial Registration Technique applications]
+#### [Fiducial Registration Technique applications]()
 
 ## All sources for research and development are listed below:
 - [Orthogonal Procrustes Analysis (OPA)](https://github.com/chene/ARQOPUS/blob/main/point_Procrustes.ipynb)
