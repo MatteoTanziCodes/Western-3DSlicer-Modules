@@ -41,14 +41,14 @@ def ICP_Registration(CT_fiducials, US_fiducials, CT_Target, US_Target):
 
 def CPD_Registration(CT_fiducials, US_fiducials, CT_Target, US_Target):
     
-    CT_fiducials.append(CT_Target)
+    # Append source target to point cloud
     US_fiducials.append(US_Target)
 
+    # convert to arrays a perform registration using CPD library
     Y = np.array(CT_fiducials)
     X = np.array(US_fiducials)
     reg = DeformableRegistration(**{'X': X, 'Y': Y})
     TY, _ = reg.register()
-
     TY_List = TY.tolist()
     US_Target_Modified = TY_List[-1]
     del TY_List[-1]

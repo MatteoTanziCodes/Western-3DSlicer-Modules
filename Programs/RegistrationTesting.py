@@ -117,7 +117,8 @@ def data_read(itr):
 
 def main():
     itr = input("Enter the total iterations: ")
-    program(itr)
+    program(int(itr))
+
 
 if __name__ == "__main__":
     main()
