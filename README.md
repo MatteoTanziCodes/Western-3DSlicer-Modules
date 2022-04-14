@@ -13,10 +13,10 @@ Updated April 10th,2022
 #### The Jupyter Notebooks - Found within Documentation - will outline the research and development techniques used for the point-set registration programs, using code blocks and text to improve clarity for reports for further research.
 
 ## Project Description:
-#### [Understanding Fiducial Registration](https://github.com/MatteoTanziCodes/Western-3DSlicer-Modules/blob/main/documentation/Fiducial%20Registration%20Algorithms.ipynb)
+#### [Understanding Fiducial Registration]()
 
 ## Program Descriptions:
-#### [Fiducial Registration Technique applications]()
+#### [Fiducial Registration Technique applications](https://github.com/MatteoTanziCodes/Western-3DSlicer-Modules/blob/main/documentation/Fiducial%20Registration%20Algorithms.ipynb)
 
 ## All sources for research and development are listed below:
 - [Orthogonal Procrustes Analysis (OPA)](https://github.com/chene/ARQOPUS/blob/main/point_Procrustes.ipynb)
