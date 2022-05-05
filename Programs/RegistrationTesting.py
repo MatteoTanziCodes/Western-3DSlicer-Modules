@@ -3,7 +3,9 @@
 # Undergrad Thesis Project
 # April 10 - 2022
 ############################
+
 import VesselConstruction as vcon
+from vpython import *
 import VesselDisplay as vdisp
 import Transformations as trans
 import Data as data
@@ -22,6 +24,7 @@ def program(itr):
         vc = vcon
         d = data
         t = trans
+        vd = vdisp
 
         ## Create Vessels
         Main_Vessel = vc.create_vessel()
@@ -39,6 +42,24 @@ def program(itr):
         targets = vc.Targets()
         CT_Target = targets[0]
         US_Target = targets[1]
+
+        ## Display Vessel
+        vd.display_main_line(Main_Vessel[0], color.orange)
+        vd.display_branches(Main_Vessel[1], color.orange)
+        
+
+        ## Display bifurcation pts
+        vd.display_points(main_bifurcation_pts,color.green, 8)
+
+        ## Display Vessel 2
+        vd.display_main_line(Deformed_Vessel[0], color.blue)
+        vd.display_branches(Deformed_Vessel[1], color.blue)
+
+        ## Display bifurcation pts 2
+        vd.display_points(deform_bifurcation_pts,color.green, 8)
+
+        while True:
+            pass
 
         ## Apply ICP to orig fiducial sets (Bifurcation) & Target
         ICP_bifurcation_data = t.ICP_Registration(main_bifurcation_pts, deform_bifurcation_pts, CT_Target, US_Target)
