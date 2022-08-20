@@ -5,7 +5,7 @@ Updated April 10th,2022
 ### Author: Matteo Tanzi
 ### Year: 2022
 ### Purpose: Undergraduate Thesis
-#### Currently, algorithms for point-based, line-based and dynamic registrations are being developped to be ported into 3D Slicer as modules
+#### Currently, algorithms for point-based, line-based and dynamic registrations are being developed to be ported into 3D Slicer as modules
 
 ## Github Repository Structure
 *This github repository contains Jupyter Notebooks and Python Programs used for my undergrad thesis project*
